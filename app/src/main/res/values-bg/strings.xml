@@ -65,7 +65,7 @@
     <string name="delta">Изменение:</string>
     <string name="duration">Време</string>
     <string name="en_lang">English</string>
-    <string name="entertreatmentquestion">Въведи ново treatment:</string>
+    <string name="entertreatmentquestion">Въведи нов treatment:</string>
     <string name="glucose">КЗ:</string>
     <string name="loop">Loop </string>
     <string name="loop_aps_label">APS</string>
@@ -129,7 +129,7 @@
     <string name="reason">Основание</string>
     <string name="refreshfromnightscout">Искате ли да обновите treatments от Nightscout</string>
     <string name="safety">Безопасност</string>
-    <string name="setextendedbolusquestion">Задай нов комб. болусs:</string>
+    <string name="setextendedbolusquestion">Задай нов удължен болусs:</string>
     <string name="setbasalquestion">Приложи нов временен базал:</string>
     <string name="simpleprofile">Simple profile</string>
     <string name="tempbasals">Временен базал</string>
@@ -155,8 +155,8 @@
     <string name="treatments_wizard_correction_label">Корекция</string>
     <string name="treatments_wizard_total_label">ОБЩО</string>
     <string name="treatments_wizard_unit_label">Ед.</string>
-    <string name="treatmentssafety_maxbolus_title">Макс. възможен болус</string>
-    <string name="treatmentssafety_maxcarbs_title">Макс. възможни въглехидрати</string>
+    <string name="treatmentssafety_maxbolus_title">Макс. лимит за болус (E)</string>
+    <string name="treatmentssafety_maxcarbs_title">Макс. лимит за въглехидрати (гр.)</string>
     <string name="treatmentssafety_title">Tratments safety</string>
     <string name="unsupportedclientver">Неподържана версия на NSClient</string>
     <string name="virtualpump">Виртуална помпа</string>
@@ -220,8 +220,8 @@
     <string name="end_user_license_agreement">End User License Agreement</string>
     <string name="end_user_license_agreement_text">MUST NOT BE USED TO MAKE MEDICAL DECISIONS. THERE IS NO WARRANTY FOR THE PROGRAM, TO THE EXTENT PERMITTED BY APPLICABLE LAW. EXCEPT WHEN OTHERWISE STATED IN WRITING THE COPYRIGHT HOLDERS AND/OR OTHER PARTIES PROVIDE THE PROGRAM “AS IS” WITHOUT WARRANTY OF ANY KIND, EITHER EXPRESSED OR IMPLIED, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE. THE ENTIRE RISK AS TO THE QUALITY AND PERFORMANCE OF THE PROGRAM IS WITH YOU. SHOULD THE PROGRAM PROVE DEFECTIVE, YOU ASSUME THE COST OF ALL NECESSARY SERVICING, REPAIR OR CORRECTION.</string>
     <string name="smscommunicator_allowednumbers_summary">+XXXXXXXXXX;+YYYYYYYYYY</string>
-    <string name="bolusdelivered" formatted="false">Болус %.2fU беше доставен успешно</string>
-    <string name="bolusfailed">Болусът не е доставен</string>
+    <string name="bolusdelivered" formatted="false">Болус %.2fU беше подаден успешно</string>
+    <string name="bolusfailed">Болусът не е подаден</string>
     <string name="canceltemp">Откажи временен базал</string>
     <string name="virtualpump_lastconnection_label">Последно свързване:</string>
     <string name="waitingforpumpresult">Изчаква резултат</string>
@@ -248,5 +248,40 @@
     <string name="careportal_temporarytargetcancel">Отакажи временна цел</string>
     <string name="comment">Коментар</string>
     <string name="absolute">Абсолютна</string>
+    <string name="danar_alarm">аларма</string>
+    <string name="danar_basalhour">базален по часове</string>
+    <string name="danar_carbohydrate">въглехидрати</string>
+    <string name="danar_debolus"></string>
+    <string name="danar_error">грешка</string>
+    <string name="danar_glucose">кръвна захар</string>
+    <string name="danar_history">История</string>
+    <string name="danar_history_alarm">Аларми</string>
+    <string name="danar_history_basalhours">Базален по часове</string>
+    <string name="danar_history_bolus">Болуси</string>
+    <string name="danar_history_carbohydrates">Въглехидрати</string>
+    <string name="danar_history_connectingfor">Свързване за %d сек.</string>
+    <string name="danar_history_dailyinsulin">Инсулин за деня</string>
+    <string name="danar_history_errors">Грешки</string>
+    <string name="danar_history_glucose">Кръвна захар</string>
+    <string name="danar_history_refill">Пълнене</string>
+    <string name="danar_history_syspend"></string>
+    <string name="danar_historyreload">Презареждане</string>
+    <string name="danar_iob_label">IOB на помпата</string>
+    <string name="danar_password">Парола за помпа след 2016г</string>
+    <string name="danar_refill">пълнене</string>
+    <string name="danar_totaluploaded">Общо %d записа бяха ъплоудвани</string>
+    <string name="enacted">Приложено</string>
+    <string name="failedupdatebasalprofile">Провалено ъпдейтване на профила</string>
+    <string name="hoursago">ч. преди</string>
+    <string name="overview_bolusiprogress_occlusion">Запушване</string>
+    <string name="overview_bolusprogress_delivered">Доставено</string>
+    <string name="overview_bolusprogress_goingtodeliver">Подава %.2fU E инсулин</string>
+    <string name="overview_bolusprogress_stop">Стоп</string>
+    <string name="overview_bolusprogress_stoped">Спряно</string>
+    <string name="overview_bolusprogress_stoppressed">НАТИСНАТ СТОП</string>
+    <string name="pumpbusy">Помпата е заета</string>
+    <string name="uploading"></string>
+    <string name="waitingforpump">Очакване на помпа</string>
+    <string name="wrongpumppassword">Грешна парола за помпа!</string>
 </resources>
 
