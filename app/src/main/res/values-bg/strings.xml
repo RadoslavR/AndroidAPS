@@ -29,7 +29,7 @@
     <string name="careportal_newnstreatment_duration_label">Продължителност</string>
     <string name="careportal_newnstreatment_duration_min">min</string>
     <string name="careportal_newnstreatment_enteredby_title">Въведено от</string>
-    <string name="careportal_newnstreatment_eventtime_label">Време на събитието</string>
+    <string name="careportal_newnstreatment_eventtime_label">Време:</string>
     <string name="careportal_newnstreatment_insulin_label">Инсулин</string>
     <string name="careportal_newnstreatment_meter">Глюкомер</string>
     <string name="careportal_newnstreatment_notes_label">Бележки</string>
