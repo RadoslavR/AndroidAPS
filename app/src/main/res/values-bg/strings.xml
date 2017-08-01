@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <resources>
 	<string name="treatmentssafety_title">Настройки на сигурността</string>
     <string name="treatmentssafety_maxbolus_title">Максимален инсулин при болус [единици]</string>
@@ -267,7 +268,7 @@
     <string name="careportal_temporarytargetcancel">Откажи временна цел</string>
     <string name="danarprofile">DanaR профил</string>
     <string name="danarprofile_dia">DIA (Време на действие на инсулина) ч.:</string>
-    <string name="danarprofile_dia_summary">Продължителност на действие на инсулина</string>
+    <string name="danarprofile_dia_summary">Време на действие на инсулина</string>
     <string name="failedupdatebasalprofile">Неуспешно обноввяване на базалния профил</string>
     <string name="danar_history">История</string>
     <string name="danar_historyreload">Презареди</string>
@@ -287,12 +288,12 @@
     <string name="danar_history_basalhours">Базален по часове</string>
     <string name="danar_history_bolus">Болуси</string>
     <string name="danar_history_carbohydrates">Въглехидрати</string>
-    <string name="danar_history_dailyinsulin">Дневен инсулин</string>
+    <string name="danar_history_dailyinsulin">Инсулин за деня</string>
     <string name="danar_history_errors">Грешки</string>
     <string name="danar_history_glucose">КЗ</string>
     <string name="danar_history_refill">Пълнене</string>
     <string name="danar_history_syspend">Спиране</string>
-    <string name="danar_history_connectingfor" formatted="false">Опитва да се свърже през последните %d с</string>
+    <string name="danar_history_connectingfor" formatted="false">Свързване с помпата за %d сек.</string>
     <string name="danar_password_title">Парола за помпата</string>
     <string name="wrongpumppassword">Грешна парола за помпата!</string>
     <string name="pumpbusy">Помпата е заета</string>
@@ -347,7 +348,7 @@
     <string name="mealbolus">Хранене</string>
     <string name="correctionbous">Корекция</string>
     <string name="ko_lang">Korean</string>
-    <string name="actions">Actions</string>
+    <string name="actions">Действия</string>
     <string name="androidaps_start">Стартиран AndroidAPS</string>
     <string name="ns_upload_only">NS upload only (изключва синхронизацията)</string>
     <string name="ns_upload_only_summary">Само качване на данните в NS. Няма ефект върху данните за КЗ ако локален източник като xDrip е избран. Няма ефект върху профила освен ако не е избран  NS-профил.</string>
@@ -362,11 +363,11 @@
     <string name="button3">Бутон 3</string>
     <string name="percentagefactor_hint">% с който базовият профил ще бъде променен.</string>
     <string name="timeshift_hint">Точен брой часове, с които ще бъде изместен профила!</string>
-    <string name="send_to_pump">Изпрати в помпата</string>
+    <string name="send_to_pump">ИЗПРАТИ КЪМ ПОМПАТА</string>
     <string name="units">Единици:</string>
     <string name="mgdl">мг/дл</string>
     <string name="mmol">ммол/л</string>
-    <string name="dia">DIA(продължителност на действие на инсулина):</string>
+    <string name="dia">DIA(време на действие на инсулина):</string>
     <string name="target_range">Целеви диапазон:</string>
     <string name="edit_base_basal">Редактирай базални стойности</string>
     <string name="edit_base_isf">Редактирай Инс. чувствителност</string>
@@ -486,7 +487,7 @@
     <string name="stoppingtempbasal">Спира временен базал</string>
     <string name="settingextendedbolus">Настойва удължен болус</string>
     <string name="stoppingextendedbolus">Спира удължен болус</string>
-    <string name="updatingbasalrates">Обновява базалите</string>
+    <string name="updatingbasalrates">Обновява базални стойности</string>
     <string name="disconnecting">Спира връзката</string>
     <string name="executing">Изпълнява</string>
     <string name="virtualpump_settings">Настойки Виртуална Помпа</string>
@@ -508,13 +509,13 @@
     <string name="nsclientinternal_secret_dialogmessage">Въведете NS API secret (мин 12 символа)</string>
     <string name="nsclientinternal_devicename_title">Име на устройството</string>
     <string name="nsclientinternal_devicename_dialogtitle">Въведете името на телефона</string>
-    <string name="nsclientinternal_devicename_dialogmessage">Ще се използва за полето enteredBy</string>
+    <string name="nsclientinternal_devicename_dialogmessage">Ще се използва за полето \"Въведено от\"</string>
     <string name="deliver_now">Изпрати сега</string>
     <string name="clear_queue">Изчисти опашка</string>
     <string name="show_queue">Покажи опашка</string>
     <string name="queue">Опашка:</string>
     <string name="status">Статус:</string>
-    <string name="paused">пауза</string>
+    <string name="paused">Пауза</string>
     <string name="patientage">Възраст на потребителя</string>
     <string name="child">Дете</string>
     <string name="teenage">Тийнейджър</string>
@@ -601,6 +602,8 @@
     <string name="nsalarm_urgent_staledatavalue_label">Много стари данни при повече от [мин]</string>
     <string name="openapsama_autosens_period">Интервал за autosens [ч]</string>
     <string name="openapsama_autosens_period_summary">Брой часове назад за определяне на чувствителността (приемът на въглехидрати е изключен)</string>
+    
+    
     <string name="do_not_track_profile_switch">Игнорирай събитията от тип Смяна на профил</string>
     <string name="do_not_track_profile_switch_summary">Всички смени на профила се игнорират и винаги се използва текущия профил</string>
     <string name="pump">Помпа</string>
@@ -609,8 +612,8 @@
     <string name="uploader">Uploader</string>
     <string name="configbuilder_sensitivity">Определяне на чувствителност</string>
     <string name="sensitivity_shortname">ЧУВСТВ</string>
-    <string name="sensitivityoref0">Алгоритъм на Oref0</string>
-    <string name="sensitivityaaps">Алгоритъм на AAPS</string>
+    <string name="sensitivityoref0">чрез Oref0</string>
+    <string name="sensitivityaaps">чрез AAPS</string>
     <string name="absorptionsettings_title">Настройки за абсорбция</string>
     <string name="absorption_maxtime_title">Максимално време за усвояване на храненето [ч]</string>
     <string name="absorption_maxtime_summary">Брой часове, за които се очаква храненето да бъде напълно усвоено в организма</string>
@@ -627,10 +630,24 @@
     <string name="lock_screen_short">Закл</string>
     <string name="sensitivity_warning">Когато включите Autosense feature трябва да въвеждате ВСИЧКИ въглехидрати. В противен случай те ще се изчисляват грешно като повишена чувствителност!!</string>
 
-    <string name="sensitivityweightedaverage">Алгоритъм на Среднопретеглената стойност</string>
+    <string name="sensitivityweightedaverage">чрез Среднопретеглената стойност</string>
     <string name="mdtp_ok">OK</string>
     <string name="mdtp_cancel">Откажи</string>
-    <string name="cpp_sync_setting_missing">трябва да е активно за да изпратя стойностите към помпата!</string>
+    <string name="cpp_sync_setting_missing">трябва да е активно за да изпрати стойностите към помпата!</string>
     <string name="cpp_notloadedplugins">Не всички профили са заредени!</string>
     <string name="cpp_valuesnotstored">Стойностите не са запазени!</string>
+    <string name="androidaps_tempbasalendnote">Край на временен базал</string>
+    <string name="androidaps_tempbasalstartnote">Старт на временен базал</string>
+    <string name="careportal_newnstreatment_minutes">мин.</string>
+    <string name="clearlog">Изчисти лога</string>
+    <string name="nosuccess">неуспешно - моля проверете телефона</string>
+    <string name="notavailable">Недостъпно</string>
+    <string name="nowritepermission">NSClient няма права за запис. Грешна API secret?</string>
+    <string name="ns_localbroadcasts">Разреши предаване към други приложения (напр. xDrip)</string>
+    <string name="ns_localbroadcasts_title">Разреши локално предаване на данни</string>
+    <string name="objectives_0_gate">Потвърждаване, че КЗ е достъпна в Найтскаут и данните за помпата се качват там</string>
+    <string name="overview_newtempbasal_basal_label">Базална стойност</string>
+    <string name="ro_lang">Romanian</string>
+    <string name="wear_detailedIOB_summary">Раздели IOB от болус и от базал на часовника</string>
+    <string name="wear_detailedIOB_title">Покажи подробен IOB</string>
 </resources>
